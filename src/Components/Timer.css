@@ -1,0 +1,9 @@
+.timer p {
+  width: 6rem;
+  height: 4rem;
+  border-radius: 10rem;
+  background-color: rgb(255, 243, 228);
+  text-align: center;
+  align-content: center;
+  color: black;
+}
