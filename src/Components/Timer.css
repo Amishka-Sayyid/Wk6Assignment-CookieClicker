@@ -1,9 +1,14 @@
 .timer p {
   width: 6rem;
-  height: 4rem;
+  height: 3rem;
   border-radius: 10rem;
   background-color: rgb(255, 243, 228);
   text-align: center;
   align-content: center;
   color: black;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

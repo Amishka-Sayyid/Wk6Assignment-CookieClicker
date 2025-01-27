@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Timer.css";
+import ButtonIncrease from "./ButtonIncrease";
+
 export function Timer() {
   const [cookies, setCookies] = useState(0);
 
@@ -23,8 +25,10 @@ export function Timer() {
     <>
       <div className="timer">
         <p>{cookies}</p>
-
         <p>{cps} CPS</p>
+
+        {/* passing cookies and setCookies */}
+        <ButtonIncrease cookies={cookies} setCookies={setCookies} />
       </div>
     </>
   );
