@@ -2,21 +2,36 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #699688;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(246, 242, 238);
+  place-content: center;
+}
+
+.App {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid gray;
+  min-height: 70vh;
+  width: 70%;
+  margin: auto;
+
+  background: rgb(223, 204, 187);
+  background: radial-gradient(
+    circle,
+    rgba(223, 204, 187, 1) 0%,
+    rgb(167, 113, 85) 100%
+  );
+  border-radius: 4rem;
+  filter: drop-shadow(0 0 2em #d4ac70aa);
 }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 
