@@ -24,7 +24,9 @@ export default function Shop() {
 
   // Limiting items to the first 4
   const limitedItems = items.slice(0, 4);
-
+  function handleClick(id) {
+    console.log(`You have clicked the shop with ID: ${id}`);
+  }
   return (
     <>
       <div className="shop">
@@ -35,7 +37,13 @@ export default function Shop() {
             <p>Loading items...</p>
           ) : (
             limitedItems.map((item) => (
-              <div key={item.id} className="shopitems">
+              <div
+                onClick={() => {
+                  handleClick(item.id);
+                }}
+                key={item.id}
+                className="shopitems"
+              >
                 <p>{item.name}</p>
                 <p>Cost: {item.cost}</p>
                 <p>increase:{item.increase}</p>
