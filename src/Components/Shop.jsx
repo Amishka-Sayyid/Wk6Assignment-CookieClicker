@@ -3,6 +3,8 @@ import "./Shop.css";
 export default function Shop() {
   const [items, setItems] = useState([]);
 
+  const [upgrade, setUpgrade] = useState(0);
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -47,6 +49,8 @@ export default function Shop() {
                 <p>{item.name}</p>
                 <p>Cost: {item.cost}</p>
                 <p>increase:{item.increase}</p>
+
+                <h4>Upgrades: {upgrade}</h4>
               </div>
             ))
           )}
