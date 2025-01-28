@@ -60,6 +60,8 @@ _Required_
     -Apply setInterval to execute periodic tasks within the application.
     -Using the .map() function to render lists of items in the application dynamically.
 
+    -added 2 stretch goals styling the page and using the upgrade Api to get the upgrades details
+
 🎯 Were there any requirements or goals that you were unable to achieve?
 
     so far im left with using logic to manage the purchase and application of upgrade items within the game( ive added onclick event on the shops and and upgrade that has its initial state as 0 now i need to only work on the logic on those 2)
