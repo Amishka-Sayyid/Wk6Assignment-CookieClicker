@@ -1,7 +1,6 @@
 .shop {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(244, 240, 232);
   min-height: 50vh;
   width: 80%;
   border-radius: 4rem;

@@ -53,5 +53,15 @@ _Stretch Requirements_
 _Required_
 
 🎯 What requirements did you achieve?
+
+    -Implementing the useState hook.
+    -Using useEffect effectively.
+    - Return JSX from a source other than App.jsx, for example, by using components.
+    -Apply setInterval to execute periodic tasks within the application.
+    -Using the .map() function to render lists of items in the application dynamically.
+
 🎯 Were there any requirements or goals that you were unable to achieve?
+
+    so far im left with using logic to manage the purchase and application of upgrade items within the game( ive added onclick event on the shops and and upgrade that has its initial state as 0 now i need to only work on the logic on those 2)
+
 🎯 If so, what was it that you found difficult about these tasks?
