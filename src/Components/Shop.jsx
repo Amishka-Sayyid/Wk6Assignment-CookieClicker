@@ -34,7 +34,7 @@ export default function Shop() {
       <div className="shop">
         <h3>Shops</h3>
 
-        <div>
+        <div className="shopDiv">
           {limitedItems.length === 0 ? (
             <p>Loading items...</p>
           ) : (

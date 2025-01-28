@@ -9,7 +9,7 @@ export function Timer() {
 
   useEffect(() => {
     const myInterval = setInterval(() => {
-      console.log("Timer starts!");
+      // console.log("Timer starts!");
       setCookies((currentCookies) => {
         console.log(typeof currentCookies);
         return currentCookies + cps;

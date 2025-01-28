@@ -68,6 +68,8 @@ _Required_
 
 🎯 If so, what was it that you found difficult about these tasks?
 
+---
+
 #**Documentation**
 
 _Trello board_
